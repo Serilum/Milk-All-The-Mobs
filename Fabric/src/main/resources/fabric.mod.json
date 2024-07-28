@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "milkallthemobs",
-  "version": "3.2",
+  "version": "3.3",
 
   "name": "Milk All The Mobs",
   "description": "Allows sheep, llamas, pigs, donkeys, horses and mules to produce a bucket of milk.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.54"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,12 +44,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
