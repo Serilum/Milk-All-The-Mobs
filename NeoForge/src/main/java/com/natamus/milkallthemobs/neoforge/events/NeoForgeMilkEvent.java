@@ -4,9 +4,7 @@ import com.natamus.milkallthemobs.events.MilkEvent;
 import net.minecraft.world.InteractionResult;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 
-@EventBusSubscriber
 public class NeoForgeMilkEvent {
 	@SubscribeEvent
 	public static void onEntityInteract(PlayerInteractEvent.EntityInteract e) {
