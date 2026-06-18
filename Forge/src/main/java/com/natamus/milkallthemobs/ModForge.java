@@ -4,7 +4,6 @@ import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.milkallthemobs.forge.events.ForgeMilkEvent;
 import com.natamus.milkallthemobs.util.Reference;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
