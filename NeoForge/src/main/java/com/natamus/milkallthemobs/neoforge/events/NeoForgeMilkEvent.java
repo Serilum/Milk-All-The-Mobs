@@ -7,7 +7,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 public class NeoForgeMilkEvent {
 	@SubscribeEvent
-	public static void onEntityInteract(PlayerInteractEvent.EntityInteractSpecific e) {
+	public static void onEntityInteract(PlayerInteractEvent.EntityInteract e) {
 		if (MilkEvent.onEntityInteract(e.getEntity(), e.getLevel(), e.getHand(), e.getTarget(), null).equals(InteractionResult.SUCCESS)) {
 			e.setCancellationResult(InteractionResult.SUCCESS);
 		}
