@@ -7,6 +7,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.util.Prediction;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
@@ -28,7 +29,7 @@ public class MilkEvent {
 					player.setItemInHand(hand, new ItemStack(Items.MILK_BUCKET));
 				}
 				else if (!player.getInventory().add(new ItemStack(Items.MILK_BUCKET))) {
-					player.drop(new ItemStack(Items.MILK_BUCKET), false);
+					player.drop(new ItemStack(Items.MILK_BUCKET), false, Prediction.PREDICTED);
 				}
 				
 				return InteractionResult.SUCCESS;
