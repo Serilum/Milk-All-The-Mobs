@@ -1,9 +1,9 @@
-package com.natamus.milkallthemobs;
+package com.serilum.milkallthemobs;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.milkallthemobs.events.MilkEvent;
-import com.natamus.milkallthemobs.util.Reference;
+import com.serilum.milkallthemobs.events.MilkEvent;
+import com.serilum.milkallthemobs.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseEntityCallback;
 
