@@ -1,9 +1,9 @@
-package com.natamus.milkallthemobs;
+package com.serilum.milkallthemobs;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.milkallthemobs.forge.events.ForgeMilkEvent;
-import com.natamus.milkallthemobs.util.Reference;
+import com.serilum.milkallthemobs.forge.events.ForgeMilkEvent;
+import com.serilum.milkallthemobs.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -27,7 +27,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeMilkEvent.registerEventsInBus();
+		ForgeMilkEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

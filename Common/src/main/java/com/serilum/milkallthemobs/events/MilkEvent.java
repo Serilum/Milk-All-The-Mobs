@@ -1,4 +1,4 @@
-package com.natamus.milkallthemobs.events;
+package com.serilum.milkallthemobs.events;
 
 import com.natamus.collective.functions.EntityFunctions;
 

@@ -1,6 +1,6 @@
-package com.natamus.milkallthemobs.neoforge.events;
+package com.serilum.milkallthemobs.neoforge.events;
 
-import com.natamus.milkallthemobs.events.MilkEvent;
+import com.serilum.milkallthemobs.events.MilkEvent;
 import net.minecraft.world.InteractionResult;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.bus.api.SubscribeEvent;
