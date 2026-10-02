@@ -1,9 +1,9 @@
-package com.natamus.milkallthemobs;
+package com.serilum.milkallthemobs;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.milkallthemobs.neoforge.events.NeoForgeMilkEvent;
-import com.natamus.milkallthemobs.util.Reference;
+import com.serilum.milkallthemobs.neoforge.events.NeoForgeMilkEvent;
+import com.serilum.milkallthemobs.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
