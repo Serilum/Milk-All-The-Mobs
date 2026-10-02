@@ -1,6 +1,6 @@
-package com.natamus.milkallthemobs.forge.events;
+package com.serilum.milkallthemobs.forge.events;
 
-import com.natamus.milkallthemobs.events.MilkEvent;
+import com.serilum.milkallthemobs.events.MilkEvent;
 import net.minecraft.world.InteractionResult;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;

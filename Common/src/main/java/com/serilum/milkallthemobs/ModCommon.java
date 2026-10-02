@@ -1,4 +1,4 @@
-package com.natamus.milkallthemobs;
+package com.serilum.milkallthemobs;
 
 
 public class ModCommon {
